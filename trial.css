@@ -1,0 +1,46 @@
+
+
+
+.box{
+    width: 500px;
+    height: 400px;
+    background-color: blue;
+    animation-name: example;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite; */
+    /* translate: 100px 100px; */
+    /* transition-duration: 2s; */
+    /* transition-delay: 2s; */
+    /* transition-property:translate; */
+    /* transition-timing-function: ease-in-out; */
+    /* transform: rotate(30deg); skew(30deg, 30deg) scale:(2, 0.5) translate: ( 200px, 800px);  */
+}
+@media screen and (max-width: 700px) {
+    .box{
+        width: 50%;
+        height: 400px;
+    transition-duration: 2s;
+}
+}
+    50%{
+        background-color: aqua;
+    }
+
+    100%A{
+        transform: scale(2)  
+
+    } */
+
+
+    .box:hover{
+        background-color: green;
+        box-shadow: 0 0 20px grey;
+        transition-duration: 1s;
+    }
+
+
+
+
+
+
+    .first

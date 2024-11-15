@@ -1,0 +1,31 @@
+body {
+  background-image: url("image/tree.png");
+  background-attachment: scroll;
+  background-position: right top;
+  margin-left: 200px;
+  background-repeat: no-repeat;
+}
+
+.first {
+  text-align: center;
+  color: rgb(168, 127, 255);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 30px;
+}
+h1.first {
+  border-style: double;
+  border-width: 10px 10px;
+  border-color: azure;
+}
+div.box {
+  margin: 230px, 100px auto;
+  margin-top: auto;
+  padding: 30px;
+  width: 400px;
+  height: 500px;
+  background-color: rgb(148, 73, 73);
+  border: 2px solid black;
+  transition: background-color 0.5s, box-shadow 0.5s;
+}

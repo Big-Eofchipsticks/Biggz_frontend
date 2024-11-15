@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .body {
+        height: 100px;
+        position: absolute;
+        top: 0%;
+        transition: 1s;
+        z-index: 90;
+      }
+      .container { border: 15px solid black; background;
+        padding: 50px;
+        height: 300px;
+        width: 100%;
+        margin: 30px;
+        background-color: red;
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">hello  whatspopingggg</div>
+    <script>
+      let newDiv = document.createElement("div");
+      newDiv.textContent = "lorem ipsum dolor sit amet, consectetur adipis";
+      newDiv.className = "text";
+
+      document.body.appendChild(newDiv);
+      let header = document.createElement("h2");
+      header.textContent = "hello";
+      header.className = "centre";
+      document.body.appendChild(header);
+
+      let container = document.querySelector("container");
+      container.appendChild(header);
+      container.appendChild(newDiv);
+
+    </script>
+  </body>
+</html>
